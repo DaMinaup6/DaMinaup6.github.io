@@ -509,6 +509,10 @@ footer .footer-custom-content {
 }
 .post-preview .post-entry {
   width: 100%;
+  overflow-y: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
 }
 .post-preview .post-image {
   float: right;
